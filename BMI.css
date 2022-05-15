@@ -1,5 +1,5 @@
 .div{
-    background-color: thistle;
+    background-color: white;
     width: 400px;
     height: 400px;
     border-radius: 10px;
@@ -7,7 +7,10 @@
     padding: 10px 30px;
     box-sizing: border-box;
     position: relative;
+    margin-top: 150px;
+    border: solid 2px darkseagreen;
 }
+
 .age{
     width: 150px;
     height: 30px;
@@ -15,34 +18,59 @@
     position: absolute;
     margin-bottom: 100px;
 
+
 }
+
 .gender{
     width: 10px;
     height: 30px;
     display: flex;
     margin-top: 70px;
 
+
+
 }
+
 .height{
     width: 150px;
     height: 30px;
     margin-bottom: 10px;
     display: block;
+
+
 }
+
 .weight{
     width: 150px;
     height: 30px;
     display: block;
 
+
 }
+
 .btn{
     width: 150px;
     height: 30px;
     position: absolute;
     bottom: 70px;
+
 }
+
 .body{
-    background-image: url(https://media.istockphoto.com/photos/empty-gym-picture-id1132006407?k=20&m=1132006407&s=612x612&w=0&h=Z7nJu8jntywb9jOhvjlCS7lijbU4_hwHcxoVkxv77sg=);
+    /*background-image: url(https://wallpaperaccess.com/full/729335.png);*/
+    background: linear-gradient( #F1F2B5, #eef2f3);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+
 }
+
+/*.result-statement{*/
+/*    position: absolute;*/
+/*    margin-left: 530px;*/
+/*}*/
+
+/*.result{*/
+/*    position: absolute;*/
+/*    margin-left: 670px;*/
+/*}*/
